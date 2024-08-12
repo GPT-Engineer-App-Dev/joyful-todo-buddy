@@ -27,7 +27,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-start pt-16 bg-gray-100">
+    <div className="flex flex-col items-center justify-start pt-16 bg-gray-100">
       <div className="w-full max-w-md">
         <h1 className="text-4xl font-bold mb-8 text-center">Todo App</h1>
         <form onSubmit={addTodo} className="flex gap-2 mb-6">

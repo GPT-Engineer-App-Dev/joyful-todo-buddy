@@ -11,7 +11,7 @@ const Confetti = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+    <div className="flex-grow flex flex-col items-center justify-center bg-gray-100">
       <h1 className="text-4xl font-bold mb-8">Confetti Celebration!</h1>
       <Button onClick={handleConfetti} className="text-lg">
         Celebrate!
